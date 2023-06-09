@@ -1,16 +1,8 @@
-sudo apt-get update
-<br>
 sudo apt update
 <br>
-sudo apt-get upgrade
+sudo apt full-upgrade -fy
 <br>
-sudo apt full-upgrade
-<br>
-sudo apt-get install build-essential gdb
-<br>
-sudo apt install -y python3-pip
-<br>
-sudo apt install build-essential libssl-dev libffi-dev python3-dev
+sudo apt install build-essential gdb python3-pip build-essential libssl-dev libffi-dev python3-dev -fy
 <br>
 python3 --version
 <br>
